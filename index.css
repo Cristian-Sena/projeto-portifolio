@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap'); /*importando font para os paragrafos */
+*{
+    padding: 0; /*comandos de reset do html, para tirar bordas, margens*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sobre { /* aside conde estara os paragrafos a esquerda */
+    width: 60%; 
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+
+ .sobre p{ /* estilizando paragrafos com estilo da fonte, tamanho, altura das linhas e dexiando identado a primeira linha do paragrafo*/
+    font-size: 20px;
+    font-family: "SUSE", sans-serif;
+    text-indent: 10px;
+    line-height: 30px;
+ }
+ 
+ .img{ /*posicionado imagem a direita, a div no caso*/
+     float: right;
+     margin-top: 20px ;
+     margin-right: 100px;
+ }
+
+ img{ /*estiliozando imagem*/
+    display: block;
+    border-radius: 10px;
+    border: solid #1C1C1C 10px;
+    margin: auto;
+ }
+ img:hover{ /*colocando um efeito de blur ao passar o mouse sobre a imagem*/
+    box-shadow: 0px 0px 5px 5px rgba(32, 32, 32, 0.493);
+ }

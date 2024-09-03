@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+/*importando font para os paragrafos */
+*{/*comandos de reset do html, para tirar bordas, margens*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main p{ /*alinhando paragrafo ao centro, colocando fonte padrao e desencostado do h1*/
+    text-align: center;
+    font-family: "SUSE", sans-serif;
+    margin-top: 20px;
+}
+
+.redes-sociais{/*alinhando links ao centro, colocando  e desencostado do p*/
+    text-align: center;
+   margin-top: 20px;
+}
+.redes-sociais a{ /*estilizando links cor, colocando paddin e tamanho da fonte*/
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.redes-sociais a:hover{ /*estilizando cor do link ao passar o mouse sobre*/
+    color: 	#808080;
+}
+
+.formulario{/*colocando formulario ao centro, com cor de fundo, definido uma largura e alturae e bordas areedondadas*/
+    text-align: center;
+    background-color: #1C1C1C;
+    width: 500px;
+    height: 350px;
+    margin: 20px auto auto auto;
+    border-radius: 10px;
+}
+
+.formulario input{
+    margin-top: 20px;
+}
+.formulario label{ /*aplicando cor a label*/
+    color: white
+}
+#botao{ /*estilizando botao com cor e cor de fundo, e bordas arredondadas*/
+    background-color:white ;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#botao:hover{/*mudando cores de fundo e texto ao passar mouse*/
+    background-color: #808080;
+    color: white;
+}
+

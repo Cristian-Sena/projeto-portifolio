@@ -1,0 +1,60 @@
+/*arquivo css padrao para todo meu site englobando header, nav, main*/
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+/*importando font para os paragrafos */
+*{
+    margin: 0; /*comandos de reset do html, para tirar bordas, margens*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{ /*estilizando header*/
+    background-color: #1C1C1C;
+    height: 100px;
+   
+}
+
+.cabecalho > h1{ /*estilizando h1 com meu nome*/
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu{ /*estilizando nav */
+    background-color: #363636;
+    height: 50px;
+}
+.menu ul{ /*estilizando lista para deixar em foramto de links internos*/
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-evenly;
+   
+}
+
+.menu ul li a{ /*estilizando links cor, tamanho etc*/
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.menu ul li a:hover{ /*estilizando links ao passar mouse sobre para muder estilo e dar um destaque*/
+    color: #1C1C1C;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 5px;
+    box-shadow:  0px 0px 0px 4px rgba(0, 0, 0, 0.356);
+}
+
+.principal h1{ /*estilizando h1 do main*/
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    color: #363636;
+    font-weight: bold;
+    text-decoration: underline;
+}
+

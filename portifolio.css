@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+/*importando font para os paragrafos */
+*{
+    margin: 0; /*comandos de reset do html, para tirar bordas, margens*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projetos{ /*section  colocando margin top pra desencostra do h1 do main*/
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+.projetos h2{ /*colocando fonte ao h2*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside {
+    float: right;
+    width: 50%;
+}
+
+aside p{ /*colocando a fonte padrao de paragrafo e tamanho e uma margin top para desencostar do h2*/
+    font-family: "SUSE", sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+aside a{ /*estilizando link para acessar o projeto na cor tamanho da fonte e underline*/
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+}
+
+aside a:hover{ /*estilizando cor do link ao passar o mouse sobre*/
+    color: 	#808080;
+}

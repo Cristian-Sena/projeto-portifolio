@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+/*importando font para os paragrafos */
+*{
+    margin: 0; /*comandos de reset do html, para tirar bordas, margens*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formacao{ /*section alinhando texto ao centro e colocando margin top pra desencostra do h1 do main*/
+    text-align: center;
+    margin-top: 40px;
+}
+
+.formacao h2{ /*colocando fonte ao h2*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.formacao p{ /*colocando a fonte padrao de paragrafo e uma margin top para desencostar do h2*/
+    font-family: "SUSE", sans-serif;
+    margin-top: 10px;
+}
